@@ -1,0 +1,33 @@
+name: Request a Cerebra Business setup
+description: Ask for a Business setup ($1,499). This issue is public, so share only what you're happy to show.
+title: "Setup request: "
+labels: ["setup request"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for your interest. This page is public: don't include passwords, keys or anything confidential. We'll reply here to arrange a call."
+  - type: input
+    id: business
+    attributes:
+      label: Business name
+    validations:
+      required: true
+  - type: input
+    id: what
+    attributes:
+      label: What you sell, and to whom
+      placeholder: "Websites for dental clinics in Texas"
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: How should we reach you?
+      description: A business email or website contact page. It will be public here.
+    validations:
+      required: true
+  - type: dropdown
+    id: trial
+    attributes:
+      label: Have you tried the free trial?
+      options: ["Not yet", "Yes, it's running", "Yes, and I have questions"]
