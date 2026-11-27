@@ -1,7 +1,7 @@
 // Shows the newest release, so publishing one on GitHub updates this page with nothing else to do.
 // If GitHub can't answer, the download buttons keep pointing at its latest-release page, which always works.
 (function () {
-  var REPOSITORY = "cerebra71/Cerebra-Releases";
+  var REPOSITORY = "Mukira56/Cerebra-Releases";
   var INSTALLER = /^Cerebra-Setup-.*-Windows-x64\.exe$/;
 
   function all(selector) { return Array.prototype.slice.call(document.querySelectorAll(selector)); }
